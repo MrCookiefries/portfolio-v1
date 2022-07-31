@@ -1,0 +1,21 @@
+.flex {
+  display: flex;
+}
+
+.row {
+  composes: flex;
+  flex-direction: row;
+}
+
+.column {
+  composes: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}

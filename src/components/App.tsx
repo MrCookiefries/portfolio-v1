@@ -1,7 +1,9 @@
+import { Outlet } from "react-router";
+
 const App = () => {
   return (
-    <div className="App">
-      <p>my app</p>
+    <div>
+      <Outlet />
     </div>
   );
 };
